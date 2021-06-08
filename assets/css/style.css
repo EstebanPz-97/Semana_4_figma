@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+body{
+    background-color: #F8F8FC;
+    font-family: 'Open Sans';
+    height: 1956px;
+    width: 375px;
+    left: -188px;
+    top: -978px;
+    border-radius: 0px;
+    
+}
+.cabezera{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 44px;
+    position: absolute;
+}
+.header-left{
+    width: 268px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+.header-right{
+    width: 25px;
+    height: 25px;
+    left: 326px;
+    top: 54px;
+}
+.tarjet{
+    position: absolute;
+    left: 24px;
+    top: 90px;
+    width: 327px;
+    height: 260px;
+    background-color: blue;
+    border-radius: 15px;
+}
