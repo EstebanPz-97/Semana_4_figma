@@ -10,11 +10,11 @@ body{
     
 }
 .cabezera{
-    width: 100%;
+    position: absolute;
+    width: 375px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 44px;
-    position: absolute;
 }
 .header-left{
     margin-left: 24px;
@@ -25,19 +25,15 @@ body{
     font-size: 18px;
     line-height: 25px;
 }
-.header-right{
-    width: 25px;
-    height: 25px;
-    left: 326px;
-    top: 54px;
-}
 .cabezera .notification{
-    width: 28px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     margin-left: 25px;
     margin-top: 50px;
-    background-image: url('/assets/img/notificacion.png');
+    background-image: url('/assets/img/bell.svg');
+    background-repeat: no-repeat;
     background-size: 100%;
+    background-position: center;
 }
 .target{
     position: absolute;
@@ -110,4 +106,91 @@ body{
 .tarifas .cont-r{
     text-align: right;
     margin-right: 24px;
+}
+.container-title-main{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 375px;
+    height: 3opx;
+    top:500px ;
+}
+.title-main{
+    width: 268px;
+    color: #585858;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 24px;
+}
+.container-title-main .plus{
+    width: 25px;
+    height: 25px;
+    margin-left: 30px;
+    background-image: url(/assets/img/plus-circle-dotted.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.metas{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 327px;
+    margin-left: 24px;
+    height: 200px;
+    margin-top: 550px;
+}
+.metas .target-metas{
+    border-radius: 15px;
+    width: 120px;
+    height: 170px;
+    padding: 20px;
+    background-color: white;
+    margin-right: 8px;
+}
+.title-target-main{
+    margin-left: 0px;
+    margin-top: 5px;
+    width: 118px;
+    height: 40px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    color: #585858;
+}
+.ahorros{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+}
+.ahorros .graphic{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+
+}
+.ahorros .valor-ahorrado{
+    grid-column: 2;
+    grid-row: 1;
+    width: 63px;
+    height: 16px;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.03em;
+    color: #54D1ED;
+    margin-top: 15px;
+}
+.ahorros .valor{
+    grid-column: 2;
+    grid-row: 1;
+    width: 63px;
+    height: 16px;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.03em;
+    color: #585858;
+    margin-top: 30px;
 }
