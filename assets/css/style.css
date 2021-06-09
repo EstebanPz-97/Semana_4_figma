@@ -163,12 +163,20 @@ body{
     grid-template-columns: 1fr 1fr;
     margin-top: 30px;
 }
-.ahorros .graphic{
+.ahorros .graphic_20{
     width: 50px;
     height: 50px;
-    background-color: yellow;
-    border-radius: 50%;
+    background-image:url('/assets/img/s_donut.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
+.ahorros .graphic_0{
+    width: 50px;
+    height: 50px;
+    background-image:url('/assets/img/s_donut_0.svg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .ahorros .valor-ahorrado{
     grid-column: 2;
@@ -193,4 +201,80 @@ body{
     letter-spacing: -0.03em;
     color: #585858;
     margin-top: 30px;
+}
+
+.header-portafolio{
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.header-portafolio .title-portafolio{
+    width:260px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 600;
+    color: #585858;
+    height: 25px;
+}
+.header-portafolio .button-portafolio{
+    width: 64px;
+    background-color:#E4FFEE;
+    border-radius: 15px;
+    border: 0.5px solid #41CF69;
+    font-family: 'Open Sans';
+    font-size: 10px;
+    padding: 3px 10px;
+    width: 44px;
+    color: #41CF69;
+    cursor: pointer;
+    text-align: center;
+}
+.portafolio-info{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 15px;
+    position: absolute;
+    margin-top: 850px;
+    margin-left: 16px;
+    width: 327px;
+    background-color: red;
+    height: 325px;
+    padding: 10px;
+}
+.portafolio .image-portafolio{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 120px;
+    height: 120px;
+    background-image: url('/assets/img/holding_donut_robot.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.company{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.company .logo-company{
+    width: 90px;
+    height: 40px;
+    background-image: url('/assets/img/logo_company.png');
+    background-size: 100%;
+    background-position: center;
+}
+.company .porcentaje-company{
+    width: 36px;
+    height: 20px;
+    margin-left: 15px;
+    margin-top: 5px;
+    color: white;
+    background-color: #41CF69;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 600;
+    padding: 1px 8px;
+
 }
