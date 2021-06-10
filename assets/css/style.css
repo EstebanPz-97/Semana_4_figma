@@ -353,6 +353,50 @@ body{
     letter-spacing: -0.03em;   
     margin-left: 15px;
 }
+.ahorro{
+    width: 327px;
+    position: absolute;
+    margin-left: 24px;
+    margin-top: 1120px;
+    display: grid;
+    grid-template-rows: 50px 280px ;
+}
+.ahorro .title-ahorro{
+    width: 268px;
+    color: #585858;
+    font-weight: 600;
+    font-size: 18px;
+}
+.ahorro .carousel-item img{
+    width: 100%;
+    height: 270px;
+    border-radius: 15px;
+}
+.ahorro .vector{
+    position: absolute;
+    width: 327px;
+    height: 120px;
+    background-image: url(/assets/img/Vector\ 6.svg);
+    margin-left: -49px;
+    margin-top: -80px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: left;
+    padding: 10px 20px;
+    line-height: 97px;
+    display: grid;
+    grid-template-rows: 30px 32px;
+}
+.vector .title-vector{
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 600;
+}
+.vector .content-vector{
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 600;
+}
 footer{
     font-family: 'Open Sans';
     font-weight: 400;
@@ -369,7 +413,7 @@ footer{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     color: #585858; ;
 }
-footer .home{
+footer .footer-home{
     padding: 12px;
     text-align: center;
 }
@@ -379,7 +423,7 @@ footer .image-home{
     padding: 20px;
     background-position: center;
 }
-footer .historial{
+footer .footer-historial{
     padding: 12px;
     text-align: center;
 }
@@ -388,7 +432,7 @@ footer .image-historial{
     background-repeat: no-repeat;
     padding: 20px;
     background-position: center;
-}footer .ahorro{
+}footer .footer-ahorro{
     padding: 12px;
     text-align: center;
 }
@@ -403,7 +447,7 @@ footer .image-ahorro{
     padding: 20px;
     margin-top: -30px;
     margin-left:-20px ;
-}footer .perfil{
+}footer .footer-perfil{
     padding: 12px;
     text-align: center;
 }
@@ -412,7 +456,7 @@ footer .image-perfil{
     background-repeat: no-repeat;
     padding: 20px;
     background-position: center;
-}footer .mas{
+}footer .footer-mas{
     padding: 12px;
     text-align: center;
 }
