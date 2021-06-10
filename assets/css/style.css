@@ -397,6 +397,80 @@ body{
     font-size: 12px;
     font-weight: 600;
 }
+.consejos{
+    position: absolute;
+    width: 327px;
+    height: 310px;
+    margin-left: 24px;
+    margin-top: 1500px;
+    border-radius: 15px;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.consejos .content-consejos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "text-consejos image-consejos"
+    "text-consejos image-consejos"
+}
+.content-consejos .title-consejos{
+    grid-area: text-consejos;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    color: #58506B;
+    padding: 10px;
+}
+.content-consejos .text-consejos{
+    grid-area: text-consejos;
+    font-family: 'Open Sans';
+    width: 205px;
+    margin-top: 30px;
+    font-size: 10px;
+    font-weight: 400;
+    color: #58506B;
+    padding: 10px;
+    letter-spacing: -0.03em;
+}
+.content-consejos .image-consejos-tv{
+    grid-area: image-consejos;
+    width: 68px;
+    height: 68px;
+    background-image: url('/assets/img/tv.jpg');
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.content-consejos .image-consejos-regalos{
+    grid-area: image-consejos;
+    width: 68px;
+    height: 68px;
+    background-image: url('/assets/img/compras.jpg');
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.content-consejos .image-consejos-alcohol{
+    grid-area: image-consejos;
+    width: 68px;
+    height: 68px;
+    background-image: url('/assets/img/alcohol.jpg');
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
 footer{
     font-family: 'Open Sans';
     font-weight: 400;
