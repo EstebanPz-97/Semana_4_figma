@@ -234,16 +234,20 @@ body{
 .portafolio-info{
     display:grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "image-portafolio content-portafolio"
+    "footer-portafolio footer-portafolio";
     border-radius: 15px;
     position: absolute;
     margin-top: 850px;
     margin-left: 16px;
     width: 327px;
-    background-color: red;
-    height: 325px;
+    background-color: white;
+    height: 230px;
     padding: 10px;
 }
 .portafolio .image-portafolio{
+    grid-area: image-portafolio;
     margin-left: 20px;
     margin-top: 20px;
     width: 120px;
@@ -251,6 +255,9 @@ body{
     background-image: url('/assets/img/holding_donut_robot.svg');
     background-position: center;
     background-repeat: no-repeat;
+}
+.portafolio .content-portafolio{
+    grid-area: content-portafolio;
 }
 .company{
     display: grid;
@@ -278,8 +285,74 @@ body{
     padding: 1px 8px;
 
 }
+.content-portafolio .text-company{
+    display: grid;
+    height: 105px;
+    grid-auto-rows: 20px;
+}
+.text-company .text-company-title{
+    height: 16px;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    color: #58506B;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+}
+.text-company .text-company-precio{
+    height: 16px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    color: #58506B;
+    font-weight: 600;   
+    letter-spacing: -0.03em;
+}
+.text-company .text-company-tipo{
+    height: 14px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #41CF69;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+}
+.text-company .text-company-renta{
+    height: 28px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #58506B;
+    font-weight: 600;   
+    letter-spacing: -0.03em;    
+}
+.frame-company{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.frame-company .frame-left{
+    width: 30px;
+    height: 30px;
+    background-image: url('/assets/img/chevron-left.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
-
+.frame-company .frame-rigth{
+    width: 30px;
+    height: 30px;
+    background-image: url('/assets/img/chevron-right.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 50px;
+}
+.portafolio .footer-portafolio{
+    grid-area: footer-portafolio;
+    width: 287px;
+    height: 30px;
+    font-family: 'Open Sans';
+    font-size: 10px;
+    color: #58506B;
+    font-weight: 600;   
+    letter-spacing: -0.03em;   
+    margin-left: 15px;
+}
 footer{
     font-family: 'Open Sans';
     font-weight: 400;
