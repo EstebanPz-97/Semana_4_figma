@@ -278,3 +278,74 @@ body{
     padding: 1px 8px;
 
 }
+
+
+footer{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 24px;
+    position: fixed;
+    width: 327px;
+    height: 60px;
+    margin-left: 24px;
+    bottom: 50px;
+    border-radius: 15px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    color: #585858; ;
+}
+footer .home{
+    padding: 12px;
+    text-align: center;
+}
+footer .image-home{
+    background-image: url('/assets/img/house-door.svg');
+    background-repeat: no-repeat;
+    padding: 20px;
+    background-position: center;
+}
+footer .historial{
+    padding: 12px;
+    text-align: center;
+}
+footer .image-historial{
+    background-image: url('/assets/img/list-ul.svg');
+    background-repeat: no-repeat;
+    padding: 20px;
+    background-position: center;
+}footer .ahorro{
+    padding: 12px;
+    text-align: center;
+}
+footer .text-ahorro{
+    line-height: 75px;
+}
+footer .image-ahorro{
+    position: absolute;
+    background-image: url('/assets/img/plus-circle-fill.svg');
+    background-repeat: no-repeat;
+    background-size: 40px;
+    padding: 20px;
+    margin-top: -30px;
+    margin-left:-20px ;
+}footer .perfil{
+    padding: 12px;
+    text-align: center;
+}
+footer .image-perfil{
+    background-image: url('/assets/img/person-circle.svg');
+    background-repeat: no-repeat;
+    padding: 20px;
+    background-position: center;
+}footer .mas{
+    padding: 12px;
+    text-align: center;
+}
+footer .image-mas{
+    background-image: url('/assets/img/three-dots.svg');
+    background-repeat: no-repeat;
+    padding: 20px;
+    background-position: center;
+}
