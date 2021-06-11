@@ -1,0 +1,47 @@
+body {
+    font-family: 'Roboto';
+    text-align: center
+    }
+    
+    h2 {
+    margin-bottom: 80px;
+    }
+    
+    .pregunta a {
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    padding: 20px;
+    width: 200px !important;
+    display: inline-block;
+    transition: 0.4s;
+    }
+    
+    .pregunta a:hover {
+    background: #000;
+    transition: 0.4s;
+    color: #fff;
+    }
+    
+    #dos {
+    display: none;
+    }
+    #tres {
+    display: none;
+    }
+
+    #correcto, #correcto2,#correcto3, #incorrecto, #incorrecto2,#incorrecto3 {
+    display: none;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 40px;
+    }
+    
+    #correcto, #correcto2,#incorrecto3 {
+    color: green;
+    }
+    
+    #incorrecto, #incorrecto2,#incorrecto3 {
+    color: red;
+    }
+

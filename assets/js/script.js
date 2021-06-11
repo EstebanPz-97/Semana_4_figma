@@ -99,7 +99,7 @@ function IniciarSesion(user, pass){
 IniciarSesion(nombrePrompt,contrasenaPrompt);
 }
 function compra(){
-var boton = document.getElementById('boton');
+    var boton = document.getElementById('boton');
 var input = document.getElementById('input');
 var ul = document.querySelector('ul');
 
@@ -120,3 +120,129 @@ function Eliminar(e) {
     e.target.parentNode.remove();
 }
 }
+function preguntas(){
+    var james = document.getElementById('james');
+    var falcao = document.getElementById('falcao');
+    var valenciano = document.getElementById('valenciano');
+    
+    var preguntaUno = document.getElementById('uno');
+    var preguntaDos = document.getElementById('dos');
+    var preguntaTres = document.getElementById('tres');
+    
+    var bogota = document.getElementById('bogota');
+    var cali = document.getElementById('cali');
+    var medellin = document.getElementById('medellin');
+    
+    var futbol = document.getElementById('futbol');
+    var baloncesto = document.getElementById('baloncesto');
+    var ciclismo = document.getElementById('ciclismo');
+    
+    var buenosaires = document.getElementById('buenosaires');
+    var laplata = document.getElementById('laplata');
+    var laboca = document.getElementById('laboca');
+    
+    var correcto = document.getElementById('correcto');
+    var incorrecto = document.getElementById('incorrecto');
+    var correcto2 = document.getElementById('correcto2');
+    var incorrecto2 = document.getElementById('incorrecto2');
+    var correcto3= document.getElementById('correcto3');
+    var incorrecto3 = document.getElementById('incorrecto3');
+    var puntaje = 0;
+    
+    james.addEventListener("click", function(e){
+        e.preventDefault();
+        james.style.background = "red";
+        incorrecto.style.display = "block";
+        setTimeout(function(){
+            preguntaUno.style.display = "none";
+            preguntaDos.style.display = "block";
+            preguntaTres.style.display = "none";
+        }, 1000);
+    })
+    
+    falcao.addEventListener("click", function(e){
+        e.preventDefault();
+        falcao.style.background = "green";
+        correcto.style.display = "block";
+        puntaje++;
+        setTimeout(function(){
+            preguntaUno.style.display = "none";
+            preguntaDos.style.display = "block";
+            preguntaTres.style.display = "none";
+        }, 1000)
+    })
+    
+    valenciano.addEventListener("click", function(e){
+        e.preventDefault();
+        valenciano.style.background = "red";
+        incorrecto.style.display = "block";
+        setTimeout(function(){
+            preguntaUno.style.display = "none";
+            preguntaDos.style.display = "block";
+            preguntaTres.style.display = "none";
+        }, 1000);
+    })
+    
+    bogota.addEventListener("click", function(e){
+        e.preventDefault();
+        bogota.style.background = "green";
+        correcto2.style.display = "block";
+        puntaje++;
+        setTimeout(function(){
+            preguntaUno.style.display = "none";
+            preguntaDos.style.display = "none";
+            preguntaTres.style.display = "block";
+        }, 1000)
+    })
+    
+    cali.addEventListener("click", function(e){
+        e.preventDefault();
+        cali.style.background = "red";
+        incorrecto2.style.display = "block";
+        setTimeout(function(){
+            preguntaUno.style.display = "none";
+            preguntaDos.style.display = "none";
+            preguntaTres.style.display = "block";
+        }, 1000)
+    })
+    
+    medellin.addEventListener("click", function(e){
+        e.preventDefault();
+        medellin.style.background = "red";
+        incorrecto2.style.display = "block";
+        setTimeout(function(){
+            preguntaUno.style.display = "none";
+            preguntaDos.style.display = "none";
+            preguntaTres.style.display = "block";
+        }, 1000)
+    })
+    
+    
+    futbol.addEventListener("click", function(e){
+        e.preventDefault();
+        futbol.style.background = "red";
+        incorrecto3.style.display = "block";
+        setTimeout(function(){
+            document.write('<h1> Tu puntaje es ' + puntaje + '</h1>');
+        }, 1000)
+    })
+    
+    baloncesto.addEventListener("click", function(e){
+        e.preventDefault();
+        baloncesto.style.background = "red";
+        incorrecto3.style.display = "block";
+        setTimeout(function(){
+            document.write('<h1> Tu puntaje es ' + puntaje + '</h1>');
+        }, 1000)
+    })
+    ciclismo.addEventListener("click", function(e){
+        e.preventDefault();
+        ciclismo.style.background = "green";
+        correcto3.style.display = "block";
+        puntaje++;
+        setTimeout(function(){
+            document.write('<h1> Tu puntaje es ' + puntaje + '</h1>');
+        }, 1000)
+    })
+    
+    }
