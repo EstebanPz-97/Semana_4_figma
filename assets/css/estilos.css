@@ -1,16 +1,21 @@
 body {
     font-family: 'Roboto';
-    text-align: center
+    text-align: center;
+    background-color: black;
+    color: white;
     }
     
     h2 {
     margin-bottom: 80px;
     }
-    
+    div{
+        background-color: black;
+        color: white;
+    }
     .pregunta a {
     text-decoration: none;
-    color: #000;
-    border: 1px solid #000;
+    color: #ffff;
+    border: 1px solid #fff;
     padding: 20px;
     width: 200px !important;
     display: inline-block;

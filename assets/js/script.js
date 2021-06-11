@@ -106,10 +106,12 @@ var ul = document.querySelector('ul');
 boton.addEventListener('click', function(){
     if (input.value.length > 0) {
         var li = document.createElement('li');
+        li.classList.add('list-group-item');
         li.appendChild(document.createTextNode(input.value));
         ul.appendChild(li);
         input.value = '';
         var botonEliminar = document.createElement('button');
+        botonEliminar.classList.add('btn-danger')
         botonEliminar.appendChild(document.createTextNode('Eliminar'));
         botonEliminar.onclick = Eliminar;
         li.appendChild(botonEliminar);
@@ -223,7 +225,8 @@ function preguntas(){
         futbol.style.background = "red";
         incorrecto3.style.display = "block";
         setTimeout(function(){
-            document.write('<h1> Tu puntaje es ' + puntaje + '</h1>');
+            alert('Tu puntaje es ' + puntaje );
+            location.reload();
         }, 1000)
     })
     
@@ -232,7 +235,8 @@ function preguntas(){
         baloncesto.style.background = "red";
         incorrecto3.style.display = "block";
         setTimeout(function(){
-            document.write('<h1> Tu puntaje es ' + puntaje + '</h1>');
+           alert('Tu puntaje es ' + puntaje );
+            location.reload();
         }, 1000)
     })
     ciclismo.addEventListener("click", function(e){
@@ -241,7 +245,8 @@ function preguntas(){
         correcto3.style.display = "block";
         puntaje++;
         setTimeout(function(){
-            document.write('<h1> Tu puntaje es ' + puntaje + '</h1>');
+           alert('Tu puntaje es ' + puntaje );
+            location.reload();
         }, 1000)
     })
     
