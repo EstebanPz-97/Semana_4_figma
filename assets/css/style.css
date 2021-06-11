@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 body{
-    background-color: #F8F8FC;
+    background-color: #324b58;
     font-family: 'Open Sans';
     height: 1956px;
     width: 375px;
@@ -19,7 +19,7 @@ body{
 .header-left{
     margin-left: 24px;
     margin-top: 54px;
-    color: #585858;
+    color: #e4e4e4;
     width: 268px;
     font-weight: 600;
     font-size: 18px;
@@ -46,8 +46,8 @@ body{
     width: 100%;
     height: 230px;
     border-top: 26px;
-    background-color:#54D1ED;
     border-radius: 20px;
+    background: linear-gradient(#20243e 10%, #434a76 20%, #2c335a 60%) ;
 
 }
 .image-target{
@@ -89,7 +89,7 @@ body{
     position: absolute;
     height: 102px;
     width: 327px;
-    background-color: white;
+    background-color: #3e4363;
     margin-left: 17px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -98,7 +98,7 @@ body{
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 14px;
-    color: #585858;
+    color: #e4e4e4;
 }
 .tarifas .cont-l{
     margin-left: 24px;
@@ -117,7 +117,7 @@ body{
 }
 .title-main{
     width: 268px;
-    color: #585858;
+    color: #e4e4e4;
     font-weight: 600;
     font-size: 18px;
     margin-left: 24px;
@@ -145,7 +145,7 @@ body{
     width: 120px;
     height: 170px;
     padding: 20px;
-    background-color: white;
+    background-color: #3e4363;
     margin-right: 8px;
 }
 .title-target-main{
@@ -156,7 +156,7 @@ body{
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 14px;
-    color: #585858;
+    color: #e4e4e4;
 }
 .ahorros{
     display: grid;
@@ -199,7 +199,7 @@ body{
     font-size: 12px;
     line-height: 16px;
     letter-spacing: -0.03em;
-    color: #585858;
+    color: #e4e4e4;
     margin-top: 30px;
 }
 
@@ -215,7 +215,7 @@ body{
     font-family: 'Open Sans';
     font-size: 18px;
     font-weight: 600;
-    color: #585858;
+    color: #e4e4e4;
     height: 25px;
 }
 .header-portafolio .button-portafolio{
@@ -226,7 +226,7 @@ body{
     font-family: 'Open Sans';
     font-size: 10px;
     padding: 3px 10px;
-    width: 44px;
+    /*width: 44px;*/
     color: #41CF69;
     cursor: pointer;
     text-align: center;
@@ -242,7 +242,7 @@ body{
     margin-top: 850px;
     margin-left: 16px;
     width: 327px;
-    background-color: white;
+    background-color: #3e4363;
     height: 230px;
     padding: 10px;
 }
@@ -251,7 +251,7 @@ body{
     margin-left: 20px;
     margin-top: 20px;
     width: 120px;
-    height: 120px;
+    height: 125px;
     background-image: url('/assets/img/holding_donut_robot.svg');
     background-position: center;
     background-repeat: no-repeat;
@@ -275,7 +275,7 @@ body{
     height: 20px;
     margin-left: 15px;
     margin-top: 5px;
-    color: white;
+    color: #3e4363;
     background-color: #41CF69;
     border-radius: 15px;
     text-align: center;
@@ -294,7 +294,7 @@ body{
     height: 16px;
     font-family: 'Open Sans';
     font-size: 12px;
-    color: #58506B;
+    color: #ebe8f1;
     font-weight: 400;
     letter-spacing: -0.03em;
 }
@@ -302,7 +302,7 @@ body{
     height: 16px;
     font-family: 'Open Sans';
     font-size: 16px;
-    color: #58506B;
+    color: #ebe8f1;
     font-weight: 600;   
     letter-spacing: -0.03em;
 }
@@ -318,7 +318,7 @@ body{
     height: 28px;
     font-family: 'Open Sans';
     font-size: 14px;
-    color: #58506B;
+    color: #ebe8f1;
     font-weight: 600;   
     letter-spacing: -0.03em;    
 }
@@ -348,7 +348,7 @@ body{
     height: 30px;
     font-family: 'Open Sans';
     font-size: 10px;
-    color: #58506B;
+    color: #ebe8f1;
     font-weight: 600;   
     letter-spacing: -0.03em;   
     margin-left: 15px;
@@ -363,7 +363,7 @@ body{
 }
 .ahorro .title-ahorro{
     width: 268px;
-    color: #585858;
+    color: #e4e4e4;
     font-weight: 600;
     font-size: 18px;
 }
@@ -404,7 +404,7 @@ body{
     margin-left: 24px;
     margin-top: 1500px;
     border-radius: 15px;
-    background-color: white;
+    background-color: #3e4363;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
 }
@@ -420,7 +420,7 @@ body{
     font-family: 'Open Sans';
     font-size: 14px;
     font-weight: 400;
-    color: #58506B;
+    color: #ebe8f1;
     padding: 10px;
 }
 .content-consejos .text-consejos{
@@ -430,7 +430,7 @@ body{
     margin-top: 30px;
     font-size: 10px;
     font-weight: 400;
-    color: #58506B;
+    color: #ebe8f1;
     padding: 10px;
     letter-spacing: -0.03em;
 }
@@ -482,10 +482,10 @@ footer{
     margin-left: 24px;
     bottom: 50px;
     border-radius: 15px;
-    background-color: white;
+    background-color: #3e4363;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    color: #585858; ;
+    color: #e4e4e4; ;
 }
 footer .footer-home{
     padding: 12px;
