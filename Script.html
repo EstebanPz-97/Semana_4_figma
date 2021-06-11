@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Script</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+    
+    <a class="btn btn-secondary" href="index.html">index</a>
+    
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Session 1
+        </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+            <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btncheck1" onclick="Alumnos_1()">Session</label>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Sesion 2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck2" onclick="Alumnos_2()">Session 2</label>            
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Compras
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <h1>Lista de compras</h1>
+
+                <div class="row g-3">
+                    <div class="col-auto">
+                        <label for="inputext" class="form-control-plaintext text-white">Elemento</label>
+                    </div>
+                    <div class="col-auto">
+                    <input type="text" class="form-control" id="input">
+                    </div>
+                    <div class="col-auto">
+                    <button class="btn btn-outline-primary" id="boton" onclick="compra()">Agregar</button>
+                </div>  
+                <ul class="list-group">
+                    <li class="list-group-item">Tomate</li>
+                    <li class="list-group-item">Banana</li>
+                  </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" onclick="preguntas()">
+               Preguntas
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body" >
+                   <h1>Preguntas y respuestas</h1>
+                    <div class="pregunta" id="uno">
+                        <h2>¿Quien es el maximo goleador de colombia?</h2>
+                        <div id="correcto">CORRECTO!</div>
+                        <div id="incorrecto">INCORRECTO!</div>
+                        <a href="" id="james">James</a>
+                        <a href="" id="falcao">Falcao</a>
+                        <a href="" id="valenciano">Valenciano</a>
+                    </div>
+
+                    <div class="pregunta" id="dos">
+                        <h2>¿Cuál es la capital de colombia?</h2>
+                        <div id="correcto2">CORRECTO!</div>
+                        <div id="incorrecto2">INCORRECTO!</div>
+                        <a href="" id="bogota">Bogota</a>
+                        <a href="" id="cali">Cali</a>
+                        <a href="" id="medellin">Medellin</a>
+                    </div>
+
+                    <div class="pregunta" id="tres">
+                        <h2>¿A que deporte se dedica nairo quintana?</h2>
+                        <div id="correcto3">CORRECTO!</div>
+                        <div id="incorrecto3">INCORRECTO!</div>
+                        <a href="" id="futbol">Futbol</a>
+                        <a href="" id="baloncesto">Baloncesto</a>
+                        <a href="" id="ciclismo">Ciclismo</a>
+                    </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </body>
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</html>
